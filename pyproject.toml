@@ -1,0 +1,6 @@
+[project]
+name = "activity-monitor"
+version = "1.0.0"
+description = "An educational endpoint activity tracking application for cybersecurity research."
+readme = "README.md"
+requires-python = ">=3.9"
