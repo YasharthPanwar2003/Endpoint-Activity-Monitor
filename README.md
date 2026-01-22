@@ -2,9 +2,6 @@
 
 # Python Endpoint Activity Monitor
 
-A modular desktop application designed to demonstrate system monitoring, data persistence, and architecture separation in Python. This project utilizes Object-Oriented Programming (OOP) principles to decouple background input tracking from the user interface.
-
-
 ## Project Overview
 
 This application functions as a local input event logger. It captures keyboard activities in the background, buffers the data for performance optimization, and allows the user to export logs in various structured formats. The system is built with a focus on clean architecture, separating the backend monitoring logic from the frontend Tkinter GUI.
@@ -26,14 +23,12 @@ This application functions as a local input event logger. It captures keyboard a
 
 ## Installation and Setup
 
-You can run this project using standard pip or the modern `uv` package manager.
-
 ### Option A: Standard Python (pip)
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/endpoint-monitor.git
-    cd endpoint-monitor
+    git clone https://github.com/yourusername/Endpoint-Activity-Monitor.git
+    cd Endpoint-Activity-Monitor
     ```
 
 2.  **Install dependencies:**
@@ -46,14 +41,12 @@ You can run this project using standard pip or the modern `uv` package manager.
     python main.py
     ```
 
-### Option B: Modern Workflow (using `uv`)
-
-If you are using `uv` for fast dependency management:
+### Option B: Using `uv`
 
 1.  **Initialize the project:**
     ```bash
-    uv init endpoint-monitor
-    cd endpoint-monitor
+    uv init Endpoint-Activity-Monitor
+    cd Endpoint-Activity-Monitor
     ```
 
 2.  **Create and activate virtual environment:**
@@ -70,24 +63,19 @@ If you are using `uv` for fast dependency management:
     ```bash
     uv pip install -r requirements.txt
     ```
-    *(Note: Ensure `pynput` is in your requirements.txt)*
 
 4.  **Run the application:**
     ```bash
     python main.py
     ```
 
-## Usage Guide
+## Usage Guide: 
 
 1.  **Launch the App:** Run `main.py` to open the control panel.
-2.  **Start Monitoring:** Click the **Start** button. The application will begin capturing events in the background.
-3.  **Stop & Save:** Click **Stop** to halt capture. You can then choose to export the buffered data to your preferred file format.
+2.  **Start Monitoring:** Click the **Start** button. Application will begin capturing events in the background.
+3.  **Stop & Save:** Click **Stop** to halt capture. Export the buffered data to your preferred file format.
 4.  **Clear Data:** Use the **Clear** button to wipe the current memory buffer without saving.
 
 ## Privacy Note
 
-This application stores data **locally on your machine**. It does not possess networking capabilities and does not transmit logs to any external servers or third parties.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This application stores data **locally on your machine** and does not possess networking capabilities nor transmit logs to any external servers or third parties.
