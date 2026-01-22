@@ -35,4 +35,34 @@ A modular desktop application designed to track and log user input events. Built
 2. Run the application:
    
    **python main.py**
+
+or 
+
+Step 1: Install uv
+
+pip install uv
+
+Step 2: Create the Virtual Environment
+
+cd <Path of the project>
+
+uv myproject
+
+Step 3: Activate the Environment
+
+Windows (PowerShell):
+.venv\Scripts\activate
+
+
+Step 4: Install Dependencies
+
+uv pip install -r requirements.txt
+
+Step 5: Run the Project
+
+python main.py
+
+
+
+
    
